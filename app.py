@@ -31,7 +31,7 @@ if 'func_input' not in st.session_state:
 
 # Text input for custom function
 func_str = st.sidebar.text_input(
-    "Enter a function expression (Python syntax):", 
+    "Enter a function expression (Python syntax):",
     value=st.session_state.func_input,
     help="Examples: x**2 + y**2, sin(x)*y, x*y - x**2"
 )
